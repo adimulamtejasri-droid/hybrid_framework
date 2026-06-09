@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HybridFrameworkSuite" verbose="1">
+
+    <test name="Demo Form Signup Test">
+        <classes>
+            <class name="com.example.testcases.SignUpTest"/>
+        </classes>
+    </test>
+
+    <!-- Uncomment when phptravels.net is back online -->
+    <!--
+    <test name="Login and Booking Tests">
+        <classes>
+            <class name="com.example.testcases.BookingTest"/>
+        </classes>
+    </test>
+    -->
+
+</suite>
